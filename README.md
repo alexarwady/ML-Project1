@@ -4,7 +4,7 @@ In this repository, you can find my work for the Project 1 of the [Machine Learn
 
 This project consists in a [Kaggle competition](https://inclass.kaggle.com/c/epfml-project-1) similar to the [Higgs Boson Machine Learning Challenge (2014)](https://www.kaggle.com/c/Higgs-boson). My team ended at the 3rd place (over 117 teams).
 
-This file explains the organisation and functions of the python scripts. For more information about the implementation, see the PDF report and the commented code.
+This file explains the organisation and functions of the python scripts. For more information about the implementation, see the [PDF report](https://github.com/vfaramond/ML-Project1/blob/master/Report.pdf) and the commented code.
 
 First, you should place `train.csv` and `test.csv` in a `data` folder at the root of the project.
 
@@ -12,7 +12,7 @@ First, you should place `train.csv` and `test.csv` in a `data` folder at the roo
 Contain 3 different cost functions like:
 - **`calculate_mse`**: Mean square error
 - **`calculate_mae`**: Mean absolute error
-- **c`ompute_loss_neg_log_likelihood`**: Negative log likelihood
+- **`compute_loss_neg_log_likelihood`**: Negative log likelihood
 
 ### `cross_validation.py`
 Contain helper methods for cross validation.
